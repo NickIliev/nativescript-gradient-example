@@ -1,0 +1,26 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Node template
+# Logs
+logs
+*.log
+**/*.js
+!/demo/**/*.js
+
+# Runtime data
+pids
+*.pid
+/demo/node_modules
+/demo/platforms
+tns_modules
+.nsbuildinfo
+.nslivesyncinfo
+*.seed
+
+
+# Dependency directory
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
+node_modules
+**/node_modules
+
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion
