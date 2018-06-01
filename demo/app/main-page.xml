@@ -1,0 +1,20 @@
+
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
+
+    <Page.actionBar>
+        <ActionBar title="Linear Gradient Examples" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+
+    <ScrollView>
+        <StackLayout class="p-20">
+            <GridLayout class="grad-first" />
+            <GridLayout class="grad-second" />
+            <GridLayout class="grad-third" />
+            <GridLayout class="grad-forth" />
+            <GridLayout class="grad-fifth" />
+            <GridLayout class="grad-sixth" />
+            <GridLayout class="grad-seventh" />
+        </StackLayout>
+    </ScrollView>
+</Page>

@@ -1,0 +1,32 @@
+GridLayout {
+    height: 70;
+    margin: 0 0 10 0;
+}
+
+.grad-first {
+    background: linear-gradient(red, yellow);
+}
+
+.grad-second {
+    background: linear-gradient(to right, red , yellow);
+}
+
+.grad-third {
+    background: linear-gradient(to bottom right, red, yellow);
+}
+
+.grad-forth {
+    background: linear-gradient(-90deg, red, yellow);
+}
+
+.grad-fifth {
+    background: linear-gradient(red, yellow, green);
+}
+
+.grad-sixth {
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+}
+
+.grad-seventh {
+    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
